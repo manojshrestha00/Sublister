@@ -97,7 +97,7 @@ $ python2 sublist3r.py -d site.com
 
 # Summary
 
-Hope you have learned A step by step guide on – What is Sublister? | How to install and run it? | get hands-on How to use it? To know more about Subdomain Takeover.
+Hope you have learned A step by step guide on – What is Sublister? | How to install and run it? | get hands-on How to use it?
 
 # Thanks for reading !
 
