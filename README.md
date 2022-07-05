@@ -12,3 +12,49 @@ $ cd Sublist3r
 
 $ sudo pip install -r requirements.txt
 
+# How to use it?
+
+Run it using python
+
+python sublist3r.py  [options] [website name]
+
+# Option’s
+
+-d –domain To enumerate subdomains of Domain name
+
+-b –brute-force Include subbrute brute-force module
+
+-p –ports Scan subdomains that are in specific tcp ports
+
+-v –verbose Real-time results display in the verbose mode
+
+-t –threads Threads to use for subbrute brute-force
+
+-e –engines Search engines will be specified with a comma-separated
+
+-o –output Save the output into a text file
+
+-h –help Show the help message before exit
+
+# Examples
+
+To list all the basic options use:
+python sublist3r.py -h
+
+To enumerate subdomains of specific domain:
+python sublist3r.py -d example.com
+
+To enumerate subdomains of a specific domain and show only subdomains with open ports 80 and 443 :
+python sublist3r.py -d example.com -p 80,443
+
+To enumerate subdomains of a specific domain and show the real-time results
+python sublist3r.py -v -d example.com
+
+To enumerate subdomains and enable the brute-force module:
+python sublist3r.py -b -d example.com
+
+To enumerate subdomains and use specific engines on demands
+python sublist3r.py -e google,yahoo,virustotal -d example.com
+Summary
+
+Hope you have learned A step by step guide on – What is Sublister? | How to install and run it? | get hands-on How to use it? To know more about Subdomain Takeover.
