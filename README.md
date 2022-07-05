@@ -16,7 +16,9 @@ $ sudo pip install -r requirements.txt
 
 Run it using python
 
-python sublist3r.py  [options] [website name]
+$ python sublist3r.py
+or
+$ python sublist3r.py  [options] [website name]
 
 # Option’s
 
@@ -55,6 +57,39 @@ python sublist3r.py -b -d example.com
 
 To enumerate subdomains and use specific engines on demands
 python sublist3r.py -e google,yahoo,virustotal -d example.com
-Summary
+
+# For Termux users
+
+# Installation :
+
+$ apt update
+
+$ apt upgrade
+
+$ apt install git
+
+$ apt install python2
+
+$ git clone https://github.com/aboul3la/Sublist3r
+
+$ cd Sublist3r
+
+$ pip2 install requirements.txt
+
+$ pip2 install requests
+
+Run :
+
+$ python2 sublist3r.py
+
+$ python2 sublist3r.py -h
+
+it shows all options how you can use this tool
+
+$ python2 sublist3r.py -d site.com
+
+-d = domain name
+
+# Summary
 
 Hope you have learned A step by step guide on – What is Sublister? | How to install and run it? | get hands-on How to use it? To know more about Subdomain Takeover.
