@@ -1,4 +1,9 @@
-# Footprinting with Sublist3r
+![4-Subbrute-results](https://user-images.githubusercontent.com/106522935/177383529-28d72bcb-c0b7-4812-ab27-49a93ec5fad4.png)
+
+
+# Sublist3r
+
+Footprinting (Teconnaissance) Tool
 
 Sublist3r is a Python subdomain discovery tool that has been designed to enumerate subdomains of websites using data from publicly available sources and brute force techniques. The public sources consist of a wide range of popular search engines such as Google, Yahoo, Bing, Baidu, Ask and also Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS to discover subdomains.
 
